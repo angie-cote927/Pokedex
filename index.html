@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="icon" href="./pokedex svg.svg">
+    <title>Top 12 Pokémon</title>
+    <style>
+        .h-poke-font {
+            font-family: url('./Lato/Lato-Bold.ttf');
+        }
+    </style>
+</head>
+<body class="bg-gray-200">
+    <header class="bg-red-400 w-[100%] h-16 flex justify-center items-center"><h1 class="font-bold text-3xl text-center h-poke-font text-white">Pokémon</h1></header>
+
+    <div class="flex flex-wrap max-w-[94%] justify-center m-6">
+
+
+        <div class="w-90 h-110 mx-auto my-5">
+            <img src="" alt="" class="absolute w-60 h-60 top-28 left-36" id="chesImg">
+            <div class="w-90 h-50 border border-[#287361] bg-[#49D0B0] rounded-3xl border-2" id="chesName">
+                <!-- this is where the name of each of the pokemon will display -->
+            </div>
+            <div class="w-90 h-70 mt-[-3rem] border border-gray-500 bg-gray-300 rounded-3xl border-2" id="chesInfo">
+                <h3 class="text-lg mx-5 my-2 underline text-gray-800">About</h3>
+                <!-- this is where the info for each of the pokemon will display -->
+            </div>
+        </div>
+        <div class="w-90 h-110 mx-auto my-5">
+            <img src="" alt="" class="absolute w-60 h-60 top-28 left-154" id="fenneImg">
+            <div class="w-90 h-50 border border-red-500 bg-red-300 rounded-3xl border-2" id="fenneName">
+
+                <!-- this is where the name of each of the pokemon will display -->
+            </div>
+            <div class="w-90 h-70 mt-[-3rem] border border-gray-500 bg-gray-300 rounded-3xl border-2" id="fenneInfo">
+                <!-- this is where the info for each of the pokemon will display -->
+            </div>
+        </div>
+        <div class="w-90 h-110 mx-auto my-5">
+            <img src="" alt="" class="absolute w-60 h-60 top-28 left-276" id="froImg">
+            <div class="w-90 h-50 border border-blue-500 bg-blue-300 rounded-3xl border-2" id="froName">
+
+
+                <!-- this is where the name of each of the pokemon will display -->
+            </div>
+            <div class="w-90 h-70 mt-[-3rem] border border-gray-500 bg-gray-300 rounded-3xl border-2" id="froInfo">
+                <!-- this is where the info for each of the pokemon will display -->
+            </div>
+        </div>
+
+        
+
+        <div class="w-90 h-110 mx-auto my-5">
+            <img src="" alt="" class="absolute w-60 h-60 top-149 left-38" id="eeveeImg">
+            <div class="w-90 h-50 border border-gray-500 bg-gray-400 rounded-3xl border-2" id="eeveeName">
+                <!-- this is where the name of each of the pokemon will display -->
+            </div>
+            <div class="w-90 h-74 mt-[-3rem] border border-gray-500 bg-gray-300 rounded-3xl border-2" id="eeveeInfo">
+                <h3 class="text-lg mx-5 my-2 underline text-gray-800">About</h3>
+                <!-- this is where the info for each of the pokemon will display -->
+            </div>
+        </div>
+        <div class="w-90 h-110 mx-auto my-5">
+            <img src="" alt="" class="absolute w-60 h-60 top-149 left-160" id="vaporImg">
+            <div class="w-90 h-50 border border-blue-500 bg-blue-300 rounded-3xl border-2" id="vaporName">
+
+                <!-- this is where the name of each of the pokemon will display -->
+            </div>
+            <div class="w-90 h-74 mt-[-3rem] border border-gray-500 bg-gray-300 rounded-3xl border-2" id="vaporInfo">
+                <h3 class="text-lg mx-5 my-2 underline text-gray-800">About</h3>
+                <!-- this is where the info for each of the pokemon will display -->
+            </div>
+        </div>
+        <div class="w-90 h-110 mx-auto my-5">
+            <img src="" alt="" class="absolute w-60 h-60 top-149 left-274" id="joltImg">
+            <div class="w-90 h-50 border border-yellow-400 bg-yellow-200 rounded-3xl border-2" id="joltName">
+
+
+                <!-- this is where the name of each of the pokemon will display -->
+            </div>
+            <div class="w-90 h-74 mt-[-3rem] border border-gray-500 bg-gray-300 rounded-3xl border-2" id="joltInfo">
+                <h3 class="text-lg mx-5 my-2 underline text-gray-800">About</h3>
+                <!-- this is where the info for each of the pokemon will display -->
+            </div>
+        </div>
+
+
+
+        <div class="w-90 h-110 mx-auto my-5">
+            <img src="" alt="" class="absolute w-60 h-60 top-266 left-38" id="flareImg">
+            <div class="w-90 h-50 border border-red-500 bg-red-300 rounded-3xl border-2" id="flareName">
+                <!-- this is where the name of each of the pokemon will display -->
+            </div>
+            <div class="w-90 h-70 mt-[-3rem] border border-gray-500 bg-gray-300 rounded-3xl border-2" id="flareInfo">
+                <h3 class="text-lg mx-5 my-2 underline text-gray-800">About</h3>
+                <!-- this is where the info for each of the pokemon will display -->
+            </div>
+        </div>
+        <div class="w-90 h-110 mx-auto my-5">
+            <img src="" alt="" class="absolute w-60 h-60 top-266 left-160" id="espeImg">
+            <div class="w-90 h-50 border border-purple-500 bg-purple-300 rounded-3xl border-2" id="espeName">
+
+                <!-- this is where the name of each of the pokemon will display -->
+            </div>
+            <div class="w-90 h-70 mt-[-3rem] border border-gray-500 bg-gray-300 rounded-3xl border-2" id="espeInfo">
+                <h3 class="text-lg mx-5 my-2 underline text-gray-800">About</h3>
+                <!-- this is where the info for each of the pokemon will display -->
+            </div>
+        </div>
+        <div class="w-90 h-110 mx-auto my-5">
+            <img src="" alt="" class="absolute w-60 h-60 top-266 left-274" id="umbreImg">
+            <div class="w-90 h-50 border bg-zinc-900 rounded-3xl border-2" id="umbreName">
+
+
+                <!-- this is where the name of each of the pokemon will display -->
+            </div>
+            <div class="w-90 h-70 mt-[-3rem] border border-gray-500 bg-gray-300 rounded-3xl border-2" id="umbreInfo">
+                <h3 class="text-lg mx-5 my-2 underline text-gray-800">About</h3>
+                <!-- this is where the info for each of the pokemon will display -->
+            </div>
+        </div>
+
+
+
+        <div class="w-90 h-110 mx-auto my-5">
+            <img src="" alt="" class="absolute w-60 h-60 top-386 left-38" id="leafImg">
+            <div class="w-90 h-50 border border-[#287361] bg-[#49D0B0] rounded-3xl border-2" id="leafName">
+                <!-- this is where the name of each of the pokemon will display -->
+            </div>
+            <div class="w-90 h-70 mt-[-3rem] border border-gray-500 bg-gray-300 rounded-3xl border-2" id="leafInfo">
+                <h3 class="text-lg mx-5 my-2 underline text-gray-800">About</h3>
+                <!-- this is where the info for each of the pokemon will display -->
+            </div>
+        </div>
+        <div class="w-90 h-110 mx-auto my-5">
+            <img src="" alt="" class="absolute w-60 h-60 top-386 left-160" id="glaceImg">
+            <div class="w-90 h-50 border border-cyan-400 bg-cyan-200 rounded-3xl border-2" id="glaceName">
+
+                <!-- this is where the name of each of the pokemon will display -->
+            </div>
+            <div class="w-90 h-70 mt-[-3rem] border border-gray-500 bg-gray-300 rounded-3xl border-2" id="glaceInfo">
+                <h3 class="text-lg mx-5 my-2 underline text-gray-800">About</h3>
+                <!-- this is where the info for each of the pokemon will display -->
+            </div>
+        </div>
+        <div class="w-90 h-110 mx-auto my-5">
+            <img src="" alt="" class="absolute w-60 h-60 top-386 left-274" id="sylveImg">
+            <div class="w-90 h-50 border border-pink-500 bg-pink-300 rounded-3xl border-2" id="sylveName">
+
+
+                <!-- this is where the name of each of the pokemon will display -->
+            </div>
+            <div class="w-90 h-70 mt-[-3rem] border border-gray-500 bg-gray-300 rounded-3xl border-2" id="sylveInfo">
+                <h3 class="text-lg mx-5 my-2 underline text-gray-800">About</h3>
+                <!-- this is where the info for each of the pokemon will display -->
+            </div>
+        </div>
+
+
+
+    </div>
+    <a href="./pokedex.html" class="text-gray-700 font-bold text-xl text-center m-7">Make Your Own Pokedex</a>
+    <script src="./script.js"></script>
+</body>
+</html>

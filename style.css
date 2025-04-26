@@ -1,0 +1,148 @@
+.normalName {
+    background-color: #d1d5db;
+    border-color: #6b7280;
+}
+.normalType {
+    background-color: #e5e7eb;
+}
+
+.fireName{
+    background-color: #fca5a5;
+    border-color: #ef4444;
+}
+.fireType {
+    background-color: #fecaca;
+}
+
+.waterName {
+    background-color: #93c5fd;
+    border-color: #3b82f6;
+}
+.waterType {
+    background-color: #bfdbfe;
+}
+
+.grassName {
+    background-color: #49D0B0;
+    border-color: #287361;
+}
+.grassType {
+    background-color: #55F2CD;
+}
+
+.electricName {
+    background-color: #fef08a;
+    border-color: #facc15;
+}
+.electricType {
+    background-color: #fcd34d;
+}
+
+.psychicName {
+    background-color: #e879f9;
+    border-color: #e879f9;
+}
+.psychicType {
+    background-color: #c026d3;
+}
+
+.iceName {
+    background-color: #a5f3fc;
+    border-color: #22d3ee;
+}
+.iceType {
+    background-color: #cffafe;
+    color: black;
+}
+
+.dragonName {
+    background-color: #fcd34d;
+    border-color: #f59e0b;
+}
+.dragonType {
+    background-color: #fde68a;
+    color: black;
+}
+
+.darkName {
+    background-color: #155e75;
+    border-color: #083344;
+}
+.darkType {
+    background-color: #0f766e;
+}
+
+.fairyName {
+    background-color: #f9a8d4;
+    border-color: #ec4899;
+}
+.fairyType {
+    background-color: #fbcfe8;
+}
+
+.fightingName {
+    background-color: #fb923c;
+    border-color: #ea580c;
+}
+.fightingType {
+    background-color: #fdba74;
+}
+
+.flyingName {
+    background-color: #a1a1aa;
+    border-color: #52525b;
+}
+.flyingType {
+    background-color: #f4f4f5;
+    color: black
+}
+
+.poisonName {
+    background-color: #064e3b#064e3b;
+    border-color: #022c22;
+}
+.poisonType {
+    background-color: #047857;
+}
+
+.groundName {
+    background-color: #fdba74;
+    border-color: #f97316;
+}
+.groundType {
+    background-color: #fed7aa;
+    color: black
+}
+
+.rockName {
+    background-color: #ca8a04;
+    border-color: #a16207;
+}
+.rockType {
+    background-color: #fbbf24;
+}
+
+.bugName {
+    background-color: #84cc16;
+    border-color: #3f6212;
+}
+.bugType {
+    background-color: #bef264;
+}
+
+.ghostName {
+    background-color: #a21caf;
+    border-color: #701a75;
+}
+.ghostType {
+    background-color: #e879f9;
+}
+
+.steelName {
+    background-color: #64748b;
+    border-color: #334155;
+}
+.steelType{
+    background-color: #cbd5e1;
+    color: black;
+}

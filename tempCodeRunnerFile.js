@@ -1,0 +1,3 @@
+document.getElementById("chesName").innerHTML = `<h1 class="font-bold text-2xl text-white mx-5 mt-5 mb-2">${data.name}</h1>`
+    // document.getElementById("chesName").innerHTML += `<h3 class="flex items-center justify-center text-lg text-white text-center mx-6 bg-[#55F2CD] w-15 h-7 rounded-3xl">${data.types[0].type.name}</h1>`
+    // document.getElementById("chesImg").src = data.sprites.front_default
